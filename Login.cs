@@ -1,3 +1,4 @@
+
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -34,7 +35,8 @@ public class Login : MonoBehaviour
     }
 
 
-   
+
+    // Update is called once per frame
     void login()
     {
         bool isExists = false;
@@ -62,7 +64,7 @@ public class Login : MonoBehaviour
         }
         else
         {
-            Debug.Log("Incorrect credentials");
+            Debug.Log("Incorrect username or password");
         }
     }
 
